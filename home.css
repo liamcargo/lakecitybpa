@@ -1,0 +1,90 @@
+/*=====Whole Web Page=====*/
+body{
+margin:0;
+font-family: Georgia, serif;
+letter-spacing: 1px;
+}
+/*=====Top Navagation Section*/
+ul{
+list-style-type: none;
+margin: 0 !important;
+padding: 0 !important;
+overflow: hidden;
+background-color: #FF7F7F;
+}
+ul li{
+float: left;
+}
+ul li a{
+display: block;
+color: Black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+ul li a:hover{
+
+background-color: #E77272;
+}
+#title{
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+/*=====Main Section=====*/
+#backgroundcover{
+background-image: url(cora.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+height: 300px;
+margin:0 !important;
+padding:0 !important;
+}
+h1, h2, h3, h4, h5, h6, p{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*=====Welcome Section=====*/
+#welcomehead{
+display:flex;
+margin:10px;
+padding-left:50px;
+padding-right:50px;
+font-family:serif;
+}
+#welcomesideimage{
+border-radius: 50%;
+float: right;
+}
+/*=====Spread Awareness Section=====*/
+#spreadawarenessSection{
+background-color: #35CBDE;
+border-radius: 5%;
+}
+/*=====Get Help Sectoin=====*/
+.container{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+height: 100px;
+flex-grow: 5in;
+}
+flex-container{
+display: flex;
+
+flex-wrap: nowrap;
+}
+.box{
+display: flex;
+border: 2px solid rgb(96 139 168);
+max-width: 500px auto;
+min-width: 400px auto ;
+}
+/*=====Footer Section=====*/
+#closingsection{
+background-color: #35CBDE;
+border-radius: 2%;
+}

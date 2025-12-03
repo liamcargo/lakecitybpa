@@ -1,0 +1,57 @@
+/*=====Whole Web Page=====*/
+body{
+margin:0;
+font-family: Georgia;
+background-color:  rgb(167, 175, 183);
+text-align: center;
+}
+/*=====Top Navagation Section*/
+ul{
+list-style-type: none;
+margin: 0 !important;
+padding: 0 !important;
+overflow: hidden;
+background-color: #FF7F7F;
+}
+ul li{
+float: left;
+}
+ul li a{
+display: block;
+color: Black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+ul li a:hover{
+background-color: #E77272;
+}
+#title{
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/*===Illnesses===*/
+
+#overwrite{
+    padding: 15px;
+}
+
+.well{
+    border: 7px solid darkcyan;
+    padding: 10px;
+    background-color: #35CBDE;
+}
+
+.lesser{
+    border: 7px solid darkcyan;
+    padding: 10px;
+    background-color: #35CBDE;    
+}
+
+footer{
+    padding: 15px;
+    border: 5px solid darkcyan;
+    background-color: #35CBDE;
+}

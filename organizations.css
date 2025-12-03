@@ -1,0 +1,67 @@
+/*=====Whole Web Page=====*/
+body{
+margin:0;
+font-family: Georgia, serif;
+letter-spacing: 1px;
+}
+/*=====Top Navagation Section*/
+ul{
+list-style-type: none;
+margin: 0 !important;
+padding: 0 !important;
+overflow: hidden;
+background-color: #FF7F7F;
+}
+ul li{
+float: left;
+}
+ul li a{
+display: block;
+color: Black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+ul li a:hover{
+background-color: #E77272;
+}
+#title{
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.sectionone{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sectiontwo{
+    border: 7px solid darkcyan;
+    background-color: #35CBDE;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+}
+.sectionthree{
+    border: 7px solid darkcyan;
+    background-color: #35CBDE;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+}
+.sectionfour{
+    border: 7px solid darkcyan;
+    background-color: #35CBDE;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+.experment{
+  max-width: 250px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
